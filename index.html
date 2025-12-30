@@ -1,0 +1,1659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="images/MMIcon.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <title>
+      Marichelle Martinez | Game Developer / Game Designer - Game Development Portfolio
+    </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-brand">
+        <h1>Marichelle Martinez</h1>
+        <p>Game Developer / Game Designer</p>
+      </div>
+
+      <div class="nav-center">
+        <a onclick="showSection('about')">About</a>
+        <a onclick="showSection('projects')">Projects</a>
+        <a onclick="showSection('skills')">Skills</a>
+        <a onclick="showSection('contact')">Contact</a>
+      </div>
+
+      <div class="nav-right">
+        <button id="theme-toggle" class="theme-toggle">
+          <svg
+            class="sun-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg
+            class="moon-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a
+          href="https://www.linkedin.com/in/marichelle-martinez-bb7b26160/"
+          class="social-link"
+          target="_blank"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+            ></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+        <a
+          href="https://github.com/azzlemartinez13"
+          class="social-link"
+          target="_blank"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+            ></path>
+          </svg>
+        </a>
+        <a
+          href="./Marichelle Martinez_GameDev_CV.pdf"
+          class="social-link"
+          target="_blank"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+            ></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+        </a>
+      </div>
+    </nav>
+
+    <header>
+      <div class="header-content">
+        <div class="profile-container">
+          <img
+            src="images/ProfileImage.png"
+            alt="Marichelle Martinez"
+            class="profile-image"
+          />
+        </div>
+        <div class="header-summary">
+          <p>
+            game developer and programmer who loves turning ideas into fun and engaging games. 
+            I enjoy creating efficient systems and mechanics that help bring creative concepts to life 
+            and make gaming experiences memorable.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="active">
+      <div class="container">
+        <h2 class="text-center">About Me</h2>
+        <p class="about-text">
+          I am a passionate <span class="keyword">game programmer</span> and <span class="keyword">graphic designer</span> 
+          with a strong background in <span class="keyword">C++</span>. 
+          I enjoy solving problems and creating fun player experiences with easy-to-understand mechanics. 
+          I like working on everything from <span class="keyword">physics-based interactions</span> 
+          to <span class="keyword">AI behaviors</span>, and I am always excited by technical challenges that improve games. 
+          <!-- My skills include <span class="keyword">2D and 3D art, animation, and game design. </span> -->
+      
+        
+        </p>
+
+        <p class="about-text">
+        
+          My experience in <span class="keyword">systems programming</span> and <span class="keyword">player engagement</span> 
+          lets me develop efficient solutions. I deliver smooth, responsive gameplay. 
+          I have skills in game development, UI/UX design, and digital art, 
+          using industry tools to build visually appealing and immersive  experiences. I work well with others, 
+          focus on details, and look for ways to learn and improve. 
+          I am motivated, flexible, and excited to help develop new multimedia and gaming projects.
+        </p>
+
+        <div class="info-buttons">
+          <button onclick="toggleInfo('education')" class="info-button">
+            Education
+          </button>
+          <!-- <button onclick="toggleInfo('career')" class="info-button">
+            Career
+          </button> -->
+        </div>
+
+        <div id="education-info" class="info-section">
+          <div class="info-image-container">
+            <img
+              src="images/Biscast.jpg"
+              alt="Bicol State College of Applied Sciences and Technologies"
+              class="info-image"
+            />
+          </div>
+          <div class="info-content">
+            <h3 class="institution-name">Bicol State College of Applied Sciences and Technologies</h3>
+            <h4 class="degree-name">
+              Bachelor's Degree in Game Development 
+            </h4>
+            <p class="education-description">
+               Through this four-year program, I gained a strong technical foundation in the Game Development track. 
+               The curriculum covers the entire game creation process, from design and animation to programming, 
+               with a specialized focus on gameplay programming:
+            </p>
+            <ul class="education-highlights">
+              <li>
+                Mastering C++ programming for game development, including
+                projects with Unity game engine.
+              </li>
+              <li>
+                This includes the design and implementation of diverse gameplay systems such as character
+                controllers, combat mechanics, AI behaviors, progression
+                frameworks, and interactive elements that create engaging player
+                experiences.
+              </li>
+              <li>
+                Collaborating through GitHub, a centralized version control system, enables effective coordination 
+                across multiple team-based projects.
+              </li>
+            </ul>
+            <div class="awards-section">
+  <h5 class="awards-title">Course Awards</h5>
+  <p class="award-description">Demonstrate exceptional skill in design, storytelling, technical execution, and gameplay innovation..</p>
+  <ul class="awards-list">
+    <li>
+      <div class="award-title">Mythic Bicol Game Jam 2025</div>
+      <div class="award-detail">Best in Sound Design </div>
+      <div class="award-desc">Special awards to recognize outstanding achievements in design, narrative, sound, and artistic execution.</div>
+
+      <br>
+          <div class="info-image-container">
+            <img
+              src="images/Himagsikan_BestinSoundDesign.jpg"
+              alt="Himagsikan"
+              class="info-image"
+            />
+          </div>
+    </li>
+   
+  </ul>
+</div>
+          </div>
+        </div>
+
+        <!-- <div id="career-info" class="info-section">
+          <div class="info-image-container">
+            <img src="images/thenetvr.png" alt="TheNetVR" class="info-image" />
+          </div>
+          <div class="info-content">
+            <h3 class="company-name">TheNetVR</h3>
+            <h4 class="position-title">Unity Developer Intern</h4>
+            <p class="career-description">
+              Working within Unity in collaborative team environments to handle
+              various aspects of our projects. Contributing to development
+              sprints and participating in regular team communications to ensure
+              project success.
+            </p>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>Game Programming</h2>
+        <div class="projects-grid">
+          <!-- Project Card 5 -->
+          <article
+            class="project-card"
+            onclick="showProjectDetails('project5')"
+          >
+            <div class="project-media">
+              <video autoplay loop muted playsinline>
+                <source
+                  src="videos/Prince of Ibalong.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="project-info-overlay">
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                  <span>5</span>
+                </div>
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  <span>6 months</span>
+                </div>
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Unity Engine (C#)</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-details">
+              <h3 class="project-title">The Prince of Ibalong (2025)</h3>
+              <h4 class="project-role">Art Director/Project Leader</h4>
+              <p class="project-description">
+                A Capstone Project developed with my team 'StudioEepy', 
+                a third-person adventure game that follows the journey of Handyong, 
+                presented through a modern retelling of the Ibalong epic.
+                The game integrates traditional Bicolano storytelling, 
+                engaging combat and with each chapter featuring a unique boss encounter.
+              </p>
+            </div>
+          </article>
+          <!-- Project Card 1 -->
+          <article
+            class="project-card"
+            onclick="showProjectDetails('project1')"
+          >
+             <div class="project-media">
+              <video autoplay loop muted playsinline>
+                <source
+                  src="videos/Himagsikan.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="project-info-overlay">
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                  <span>6</span>
+                </div>
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  <span>4 Weeks</span>
+                </div>
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Unity Engine (C#)</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-details">
+              <h3 class="project-title">Himagsikan (2025)</h3>
+              <h4 class="project-role">Game Artist</h4>
+              <p class="project-description">
+                A week-long game jam developed with my team 'StudioEepy', to design digital games inspired by Bicol mythology, 
+                resulting in a PvE multiplayer survival roguelite action game featuring characters from Bicol Mythology.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project Card 2 -->
+          <article
+            class="project-card"
+            onclick="showProjectDetails('project2')"
+          >
+            <div class="project-media">
+              <video autoplay loop muted playsinline>
+                <source
+                  src="videos/Dayo.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="project-info-overlay">
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                  <span>1</span>
+                </div>
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  <span>4 Weeks</span>
+                </div>
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Unity (C#)</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-details">
+              <h3 class="project-title">Dayo (2025)</h3>
+              <h4 class="project-role">Solo Developer</h4>
+              <p class="project-description">
+                An endless first-person action/arcade shooter where the player defends a home from waves of dark entities. 
+                Integrates AI-driven enemy movement, resource management, and survival-based progression inspired by Storm the House and Spectral. 
+                Features adaptive behavior and randomized loot drops.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project Card 6 -->
+          <article
+            class="project-card"
+            onclick="showProjectDetails('project6')"
+          >
+            <div class="project-media">
+              <video autoplay loop muted playsinline>
+                <source
+                  src="videos/Ethereos.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="project-info-overlay">
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                  <span>1</span>
+                </div>
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  <span>1 month</span>
+                </div>
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Unity Engine (C#)</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-details">
+              <h3 class="project-title">Ethereos (2025)</h3>
+              <h4 class="project-role">Solo Developer</h4>
+              <p class="project-description">
+               A fast-paced 2D multiplayer shooter game set in a mystical digital realm known as the Ether, 
+               where players are drawn into intense battles using laser weapons, must collect items for power-ups, 
+               and use strategic teamwork to dominate the enemies.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project Card 3 -->
+          <article
+            class="project-card"
+            onclick="showProjectDetails('project3')"
+          >
+            <div class="project-media">
+              <video autoplay loop muted playsinline>
+                <source
+                  src="videos/TASM1.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="project-info-overlay">
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                  <span>4</span>
+                </div>
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  <span>3 Weeks</span>
+                </div>
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Unity (C#)</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-details">
+              <h3 class="project-title">That Ain't Scrap Metal (2024)</h3>
+              <h4 class="project-role">Game Designer</h4>
+              <p class="project-description">
+                A fast-paced 2D action endless game developed with my team 'StudioEepy', where a lone engineer defends a facility’s 
+                energy core from relentless scavenger robots using upgraded weapons and collected scrap.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project Card 4 -->
+          <article
+            class="project-card"
+            onclick="showProjectDetails('project4')"
+          >
+            <div class="project-media">
+              <video autoplay loop muted playsinline>
+                <source
+                  src="videos/Pestokill1.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="project-info-overlay">
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                  <span>1</span>
+                </div>
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  <span>1 month</span>
+                </div>
+                <div class="info-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Unity Engine (C#)</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-details">
+              <h3 class="project-title">PestoKill (2024)</h3>
+              <h4 class="project-role">Solo Developer</h4>
+              <p class="project-description">
+                A 2D platformer shooter where players take on the role of a pest control technician saving a flooded subdivision 
+                from mutated insects. Combine reflexes and strategy to eliminate waves of giant pests using customizable weapons.
+              </p>
+            </div>
+          </article>
+
+          
+        </div>
+
+        <!-- Project 1 Details -->
+        <div id="project1-details" class="project-details-view">
+          <div class="container">
+            <a class="back-button" onclick="hideProjectDetails('project1')">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+              </svg>
+              Back
+            </a>
+
+            <div class="project-demo">
+              <video autoplay loop muted playsinline>
+                <source
+                  src="videos/Himagsikan.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="project-title-bar">
+                <h3>Himagsikan</h3>
+              </div>
+            </div>
+
+            <div class="project-info-grid">
+              <div class="info-box">
+                <h3>About</h3>
+                <p>
+                A week-long game jam developed with my team 'StudioEepy', to design digital games inspired by Bicol mythology, 
+                resulting in a PvE multiplayer survival roguelite action game featuring characters from Bicol Mythology.
+                </p>
+              </div>
+
+              <div class="info-box">
+                <h3>Project Info</h3>
+                <div class="project-metadata">
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                      ></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                    <span>Team Size: 6</span>
+                  </div>
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span>Time frame: 4 Weeks</span>
+                  </div>
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                      ></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                    <span>Engine: Unity (C#)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <h3>Introduction</h3>
+              <p>
+                I worked with my Team Studio Eepy at Bicol State College of Applied Sciences and Technology (BISCAST) and join
+                Mythical Bicol Game Jam last November 2025, our challenge was to developed a game that inspired by Bicol Mythology and Folkore.
+                I was part of a team of 6 members and assigned as the Game Artist of the project. Our goal was to create a 3D PvE multiplayer 
+                survival roguelite action game featuring characters from Bicol Mythology.
+              </p>
+              <h3>My Role and Contributions</h3>
+              <p> 
+                As the Game Artist, I was responsible for designing and creating the visual elements of the game. 
+                This included character models, UI components, Logo and Poster Design. 
+                I worked closely with the rest of the team to ensure that the art style was consistent and aligned with the game's theme.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 Details -->
+        <div id="project2-details" class="project-details-view">
+          <div class="container">
+            <a class="back-button" onclick="hideProjectDetails('project2')">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+              </svg>
+              Back
+            </a>
+
+            <div class="project-demo">
+              <video autoplay loop muted playsinline>
+                <source
+                  src="videos/Dayo.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="project-title-bar">
+                <h3>Dayo</h3>
+              </div>
+            </div>
+
+            <div class="project-info-grid">
+              <div class="info-box">
+                <h3>About</h3>
+                <p>
+                  An endless first-person action/arcade shooter where the player defends a home from waves of dark entities. 
+                  Integrates AI-driven enemy movement, resource management, and survival-based progression inspired by Storm the House and Spectral. 
+                  Features adaptive behavior and randomized loot drops.
+                </p>
+              </div>
+
+              <div class="info-box">
+                <h3>Project Info</h3>
+                <div class="project-metadata">
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                      ></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                    <span>Team Size: 1</span>
+                  </div>
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span>Time frame: 4 Weeks</span>
+                  </div>
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                      ></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                    <span>Engine: Unity (C#)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Introduction</h3>
+              <p>
+                Dayo is a 3D first-person endless action/arcade shooter game that I developed solo using Unity.
+                In this game, players take on the role of a defender protecting their home from waves of dark entities.
+                The game integrates AI-driven enemy movement, resource management, and survival-based progression inspired by games
+                like Storm the House and Spectral. It features adaptive enemy behavior and randomized loot drops to keep players engaged.
+              </p>
+              <h3>Core Mechanics & Features</h3>
+              <p> 
+                The core mechanics of Dayo revolve around wave-based combat.
+                Players must strategically defend their home by utilizing a variety of weapons while managing limited resources.
+                The game features a dynamic wave system that increases in difficulty over time, challenging players to adapt their strategies.
+              </p>
+
+              
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 Details -->
+        <div id="project3-details" class="project-details-view">
+          <div class="container">
+            <a class="back-button" onclick="hideProjectDetails('project3')">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+              </svg>
+              Back
+            </a>
+
+            <div class="project-demo">
+              <video autoplay loop muted playsinline>
+                <source
+                  src="videos/TASM1.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="project-title-bar">
+                <h3>That Ain't Scrap Metal</h3>
+              </div>
+            </div>
+
+            <div class="project-info-grid">
+              <div class="info-box">
+                <h3>About</h3>
+                <p>
+                  A fast-paced 2D action endless game developed with my team 'StudioEepy', where a lone engineer defends a facility’s 
+                  energy core from relentless scavenger robots using upgraded weapons and collected scrap.
+                </p>
+              </div>
+
+              <div class="info-box">
+                <h3>Project Info</h3>
+                <div class="project-metadata">
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                      ></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                    <span>Team Size: 4</span>
+                  </div>
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span>Time frame: 3 weeks</span>
+                  </div>
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                      ></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                    <span>Engine: Unity (C#)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Introduction</h3>
+              <p>
+                Working as the Game Designer for 'That Ain't Scrap Metal', I collaborated with Studio Eepy a team  of four to create a fast-paced 2D endless action game.
+                In this game, players assume the role of a lone engineer tasked with defending a facility's energy core from relentless waves of scavenger robots.
+                The game emphasizes quick reflexes and strategic resource management, as players collect scrap to upgrade their weapons and enhance their defensive capabilities.
+              </p>
+              <h3>Game Design and Mechanics</h3>
+              <p> 
+                My primary responsibility was the level design, characters, weapons, and various enemies, 
+                I created a variety of weapons that players could use to fend off the scavenger robots. 
+                The mechanics were designed to be intuitive yet challenging, requiring players to think on their feet 
+                and adapt to the increasing difficulty of the waves.  
+              </p>
+
+              
+            </div>
+          </div>
+        </div>
+        <!-- Project 4 Details -->
+        <div id="project4-details" class="project-details-view">
+          <div class="container">
+            <a class="back-button" onclick="hideProjectDetails('project4')">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+              </svg>
+              Back
+            </a>
+
+            <div class="project-demo">
+              <video autoplay loop muted playsinline>
+                <source
+                  src="videos/Pestokill1.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="project-title-bar">
+                <h3>Pestokill</h3>
+              </div>
+            </div>
+
+            <div class="project-info-grid">
+              <div class="info-box">
+                <h3>About</h3>
+                <p>
+                  A 2D platformer shooter where players take on the role of a pest control technician saving a flooded subdivision from mutated insects. 
+                  Combine reflexes and strategy to eliminate waves of giant pests using customizable weapons.
+                </p>
+              </div>
+
+              <div class="info-box">
+                <h3>Project Info</h3>
+                <div class="project-metadata">
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                      ></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                    <span>Team Size: 1</span>
+                  </div>
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span>Time frame: 1 month</span>
+                  </div>
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                      ></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                    <span>Engine: Unity (C#)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Introduction</h3>
+              <p>
+                Pestokill is a 2D platformer shooter game that I developed solo using Unity.
+                In this game, players take on the role of a pest control technician tasked with saving a flooded subdivision from waves of mutated insects.
+                The game combines fast-paced action with strategic gameplay, requiring players to eliminate waves of giant pests using a variety of customizable weapons.
+              </p>
+              <h3>Technical Implementation</h3>
+              <p>
+                The development of Pestokill involved several key technical components that I implemented to create an engaging gameplay experience.
+                These components include the combat system, interactive systems, and enemy AI architecture.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <!-- Project 6 Details -->
+        <div id="project6-details" class="project-details-view">
+          <div class="container">
+            <a class="back-button" onclick="hideProjectDetails('project6')">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+              </svg>
+              Back
+            </a>
+
+            <div class="project-demo">
+              <video autoplay loop muted playsinline>
+                <source
+                  src="videos/Ethereos.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="project-title-bar">
+                <h3>Ethereos</h3>
+              </div>
+            </div>
+
+            <div class="project-info-grid">
+              <div class="info-box">
+                <h3>About</h3>
+                <p>
+                  A fast-paced 2D multiplayer shooter game set in a mystical digital realm known as the Ether, 
+                  where players are drawn into intense battles using laser weapons, must collect items for power-ups, 
+                  and use strategic teamwork to dominate the enemies.
+                </p>
+              </div>
+
+              <div class="info-box">
+                <h3>Project Info</h3>
+                <div class="project-metadata">
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                      ></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                    <span>Team Size: 1</span>
+                  </div>
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span>Time frame: 1 month</span>
+                  </div>
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                      ></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                    <span>Engine: Unity (C#)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Introduction</h3>
+              <p>
+                Etheroes is a 2D multiplayer shooter game that I developed solo using Unity.
+                Set in a mystical digital realm known as the Ether, players are drawn into intense battles using laser weapons.
+                The game emphasizes strategic teamwork, as players must collect items for power-ups and work together to dominate their enemies.
+              </p>
+              <h3>Game Mechanics and Features</h3>
+              <p>
+                The core mechanics of Ethereos revolve around fast-paced combat and teamwork. 
+                Players can collect various power-ups scattered throughout the gameplay to enhance their abilities and gain an edge in battle. 
+                The game features a variety of laser weapons, each with its own unique attributes. 
+                The first player to defeat 200 enemies is declared the winner of the match.
+              
+            </div>
+          </div>
+        </div>
+        <!-- Project 5 Details -->
+        <div id="project5-details" class="project-details-view">
+          <div class="container">
+            <a class="back-button" onclick="hideProjectDetails('project5')">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+              </svg>
+              Back
+            </a>
+
+            <div class="project-demo">
+              <video autoplay loop muted playsinline>
+                <source
+                  src="videos/Prince of Ibalong.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="project-title-bar">
+                <h3>The Prince of Ibalong</h3>
+              </div>
+            </div>
+
+            <div class="project-info-grid">
+              <div class="info-box">
+                <h3>About</h3>
+                <p>
+                  A Capstone Project developed with my team 'StudioEepy', a third-person adventure game that follows the journey of Handyong, 
+                  presented through a modern retelling of the Ibalong epic. The game integrates traditional Bicolano storytelling,
+                   engaging combat and with each chapter featuring a unique boss encounter.
+                </p>
+              </div>
+
+              <div class="info-box">
+                <h3>Project Info</h3>
+                <div class="project-metadata">
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                      ></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                    <span>Team Size: 5</span>
+                  </div>
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span>Time frame: 6 Months</span>
+                  </div>
+                  <div class="metadata-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                      ></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                    <span>Unity Engine (C#)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <h3>Game Overview</h3>
+              <p>
+                The Prince of Ibalong is a third-person adventure game developed as a capstone project with my team 'StudioEepy'.
+                The game follows the journey of Handyong, presented through a modern retelling of the Ibalong epic.
+                It integrates traditional Bicolano storytelling with engaging combat mechanics, with each chapter featuring a unique boss encounter. 
+              </p>
+
+              <h3>Game Mechanics</h3>
+              <p>
+                The Prince of Ibalong features a dynamic combat system with a state machine-based approach, allowing for fluid transitions between different attack types and special moves.
+                The game also includes a progression system that rewards players for completing objectives, defeating boss, and  unlocking chapters Handyong's journey.
+
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-container">
+          <!-- Programming Languages -->
+          <div class="skill-category">
+            <h3 class="category-title">Programming Languages</h3>
+            <!-- <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">C++</span>
+                  <span class="skill-level advanced">Proficient</span>
+                </div>
+                <p class="skill-description">
+                  Combat systems, component architecture, optimization
+                </p>
+              </div> -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">C#</span>
+                  <span class="skill-level proficient">Proficient</span>
+                </div>
+                <p class="skill-description">
+                  Unity development, game systems, UI integration
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Game Engines -->
+          <div class="skill-category">
+            <h3 class="category-title">Game Engines</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <!-- <div class="skill-header">
+                  <span class="skill-name">Unreal Engine</span>
+                  <span class="skill-level proficient">Proficient</span>
+                </div>
+                <p class="skill-description">
+                  Blueprints, C++ gameplay programming, UI widgets
+                </p> -->
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Unity</span>
+                  <span class="skill-level proficient">Proficient</span>
+                </div>
+                <p class="skill-description">
+                  C# scripting, physics, animation systems
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Development Practices -->
+          <div class="skill-category">
+            <h3 class="category-title">Development Practices</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <!-- <div class="skill-header">
+                  <span class="skill-name">Agile Scrum</span>
+                  <span class="skill-level familiar">Familiar</span>
+                </div>
+                <p class="skill-description">
+                  Sprint planning, daily standups, task management
+                </p> -->
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Github</span>
+                  <span class="skill-level proficient">Proficient</span>
+                </div>
+                <p class="skill-description">
+                  Version control, branching strategies, collaboration
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Technical Skills -->
+          <div class="skill-category">
+            <h3 class="category-title">Technical Skills</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Gameplay Systems</span>
+                  <span class="skill-level proficient">Proficient</span>
+                </div>
+                <p class="skill-description">
+                  Combat mechanics, character controllers, progression systems
+                </p>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">UI/UX</span>
+                  <span class="skill-level proficient">Proficient</span>
+                </div>
+                <p class="skill-description">
+                  Game interfaces, player feedback, information display
+                </p>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Physics</span>
+                  <span class="skill-level proficient">Proficient</span>
+                </div>
+                <p class="skill-description">
+                  Collision detection, rigidbody interactions, raycasting
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Core Competencies -->
+          <div class="skill-category">
+            <h3 class="category-title">Core Competencies</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Problem Solving</span>
+                  <span class="skill-level proficient">Proficient</span>
+                </div>
+                <p class="skill-description">
+                  Algorithm design, optimization, technical debugging
+                </p>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Team Collaboration</span>
+                  <span class="skill-level advanced">Advanced</span>
+                </div>
+                <p class="skill-description">
+                  Cross-disciplinary communication, knowledge sharing
+                </p>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Adaptability</span>
+                  <span class="skill-level advanced">Advanced</span>
+                </div>
+                <p class="skill-description">
+                  Learning new technologies, adjusting to project needs
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/xeeqwpln"
+          method="POST"
+        >
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea
+            name="message"
+            placeholder="Message"
+            rows="5"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-note">
+          <p>
+            Thanks for reaching out! I'll review your message and get back to
+            you as soon as possible.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Marichelle Martinez. All rights reserved.</p>
+    </footer>
+
+    <script>
+      // Show/hide sections
+      function showSection(sectionId) {
+        // Hide project details if they're showing when switching sections
+        const projectDetails = document.querySelectorAll(
+          ".project-details-view"
+        );
+        projectDetails.forEach((detail) => {
+          detail.classList.remove("active");
+        });
+        const projectsGrid = document.querySelector(".projects-grid");
+        if (projectsGrid) {
+          projectsGrid.style.display = "grid";
+        }
+
+        // Show selected section
+        document.querySelectorAll("section").forEach((section) => {
+          section.classList.remove("active");
+        });
+        const selectedSection = document.getElementById(sectionId);
+        selectedSection.classList.add("active");
+
+        // Update active nav indicator
+        document.querySelectorAll(".nav-center a").forEach((link) => {
+          link.classList.remove("active");
+          if (link.getAttribute("onclick").includes(sectionId)) {
+            link.classList.add("active");
+          }
+        });
+
+        // Special handling for About section - scroll to top
+        if (
+          sectionId === "about" ||
+          (sectionId === "contact" && window.innerWidth > 768)
+        ) {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        } else {
+          // For all other sections, scroll to their h2
+          const sectionHeading = selectedSection.querySelector("h2");
+          if (sectionHeading) {
+            const navHeight = document.querySelector("nav").offsetHeight;
+            const headingPosition =
+              sectionHeading.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo({
+              top: headingPosition - navHeight - 20, // 20px padding
+              behavior: "smooth",
+            });
+          }
+        }
+      }
+
+      // Toggle info sections
+      function toggleInfo(type) {
+        const educationInfo = document.getElementById("education-info");
+        const careerInfo = document.getElementById("career-info");
+
+        if (type === "education") {
+          educationInfo.style.display =
+            educationInfo.style.display === "block" ? "none" : "block";
+          careerInfo.style.display = "none";
+        } else {
+          careerInfo.style.display =
+            careerInfo.style.display === "block" ? "none" : "block";
+          educationInfo.style.display = "none";
+        }
+      }
+
+      // Project details functions
+      function showProjectDetails(projectId) {
+        const projectsGrid = document.querySelector(".projects-grid");
+        const projectDetails = document.getElementById(projectId + "-details");
+
+        projectsGrid.style.display = "none";
+        projectDetails.classList.add("active");
+
+        // Scroll to the back button position
+        const backButton = projectDetails.querySelector(".back-button");
+        if (backButton) {
+          const navHeight = document.querySelector("nav").offsetHeight;
+          const backButtonPosition =
+            backButton.getBoundingClientRect().top + window.scrollY;
+          window.scrollTo({
+            top: backButtonPosition - navHeight - 20, // 20px padding
+            behavior: "smooth",
+          });
+        }
+      }
+
+      function hideProjectDetails(projectId) {
+        const projectsGrid = document.querySelector(".projects-grid");
+        const projectDetails = document.getElementById(projectId + "-details");
+        const projectsSection = document.getElementById("projects");
+
+        projectDetails.classList.remove("active");
+        projectsGrid.style.display = "grid";
+
+        // Scroll to the projects section h2
+        const sectionHeading = projectsSection.querySelector("h2");
+        if (sectionHeading) {
+          const navHeight = document.querySelector("nav").offsetHeight;
+          const headingPosition =
+            sectionHeading.getBoundingClientRect().top + window.scrollY;
+          window.scrollTo({
+            top: headingPosition - navHeight - 20,
+            behavior: "smooth",
+          });
+        }
+      }
+
+      // Theme toggle functionality
+      function toggleTheme() {
+        const currentTheme =
+          document.documentElement.getAttribute("data-theme");
+        const newTheme = currentTheme === "dark" ? "light" : "dark";
+
+        document.documentElement.setAttribute("data-theme", newTheme);
+        localStorage.setItem("theme", newTheme);
+      }
+
+      // Set initial active section and theme
+      document.addEventListener("DOMContentLoaded", () => {
+        // Reset scroll position
+        window.scrollTo(0, 0);
+
+        // Show initial section
+        showSection("about");
+
+        // Set initial theme from localStorage or default to dark
+        const savedTheme = localStorage.getItem("theme") || "dark";
+        document.documentElement.setAttribute("data-theme", savedTheme);
+
+        // Add theme toggle click handler
+        const themeToggle = document.getElementById("theme-toggle");
+        if (themeToggle) {
+          themeToggle.addEventListener("click", toggleTheme);
+        }
+      });
+
+      // Add this to ensure page starts at top when reloaded
+      window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+      };
+    </script>
+  </body>
+</html>
